@@ -10,7 +10,7 @@ UBSI欢迎您的到来！如果您有任何关于UBSI的问题，可以使用 [I
   <server>
     <id>github</id>
       <username>ubsi-user</username>
-      <password>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</password>
+      <password>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</password>
   </server>
 </servers>
 
