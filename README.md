@@ -4,12 +4,24 @@ UBSI欢迎您的到来！如果您有任何关于UBSI的问题，可以使用 [I
 
 如果需要使用UBSI的发行包，请在maven的settings.xml中增加本仓库的引用：
 ```
+<servers>
+  ......
+
+  <server>
+    <id>github</id>
+      <username>ubsi-user</username>
+      <password>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</password>
+  </server>
+</servers>
+
 <profiles>
   ......
 
   <profile>
-    <id>github</id>
+    <id>dev</id>
     <repositories>
+      ......
+      
       <repository>
         <id>github</id>
         <url>https://maven.pkg.github.com/ubsi-home/release</url>
@@ -17,5 +29,9 @@ UBSI欢迎您的到来！如果您有任何关于UBSI的问题，可以使用 [I
     </repositories>
   </profile>
 </profiles>
+
+<activeProfiles>
+  <activeProfile>dev</activeProfile>
+</activeProfiles>
 ```
 感谢您的关注!
