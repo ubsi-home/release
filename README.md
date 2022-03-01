@@ -11,6 +11,7 @@ UBSI欢迎您的到来！如果您有任何关于UBSI的问题，可以使用 [I
     <id>github</id>
       <username>ubsi-user</username>
       <password>ghp_YGaAugA3CnkIZO2O-$-D5L5x87ar32cUL2VhB3O</password>
+      <!-- 实际使用时，请去掉password中间的"-$-" -->
   </server>
 </servers>
 
