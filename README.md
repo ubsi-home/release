@@ -36,5 +36,4 @@ UBSI欢迎您的到来！release仓库是用来托管UBSI的核心JAR包以及�
   <activeProfile>dev</activeProfile>
 </activeProfiles>
 ```
-如果您有任何关于UBSI的问题，可以使用 [Issues功能](https://github.com/ubsi-home/release/issues) 与我们进行交流，或者发送email到ubsi@rewin.com.cn，我们会及时给您回复。
 谢谢您的关注! 
